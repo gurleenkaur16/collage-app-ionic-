@@ -1,0 +1,46 @@
+page-home {
+  .bg {
+    background: url("../assets/imgs/wood.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .scroll-content {
+    display: flex;
+    justify-content: center;
+  }
+  .i1{
+    background: url("../assets/imgs/Collage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: large;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    p{
+      color:olivedrab;
+      font-family: "Arial Black";
+      background: rgba(0,0,0,1);
+      font-size: 20px;
+    }
+  }
+  .layer1{
+    background:rgba(0,0,0,0.8);
+    height: 12em;
+    width: 22em;
+    margin-top: 15em;
+  }
+  @media all and (min-width: 600px){
+    .layer1{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      background:rgba(0,0,0,0.8);
+      height: 30em;
+      width: 25em;
+      margin-top: 10em;
+    }
+    .btn-next{
+      margin-top: 3em;
+    }
+  }
+}

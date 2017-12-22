@@ -1,0 +1,52 @@
+page-frame2 ion-card.row1 {
+  display: flex;
+  background: transparent; }
+page-frame2 ion-card.row2 {
+  background: transparent; }
+page-frame2 ion-card.i1 {
+  background-color: dimgray;
+  height: 12em;
+  width: 11em;
+  display: flex;
+  justify-content: center; }
+  page-frame2 ion-card.i1 ion-icon {
+    margin-top: 1.3em;
+    font-size: 40px; }
+page-frame2 ion-card.i2 {
+  background-color: dimgray;
+  height: 12em;
+  width: 11em;
+  display: flex;
+  justify-content: center;
+  margin-top: 0.8em;
+  margin-left: 8em; }
+  page-frame2 ion-card.i2 ion-icon {
+    margin-top: 1.3em;
+    font-size: 40px; }
+page-frame2 ion-card.i3 {
+  background-color: dimgray;
+  height: 12em;
+  width: 11em;
+  display: flex;
+  justify-content: center;
+  margin-top: 0.8em;
+  margin-left: 16em; }
+  page-frame2 ion-card.i3 ion-icon {
+    margin-top: 1.3em;
+    font-size: 40px; }
+page-frame2 ion-card.i4 {
+  background-color: dimgray;
+  height: 12em;
+  width: 22em;
+  display: flex;
+  justify-content: center;
+  margin-top: 0.8em;
+  margin-left: 1em; }
+  page-frame2 ion-card.i4 ion-icon {
+    margin-top: 1.3em;
+    font-size: 40px; }
+page-frame2 ion-card.main {
+  height: 40em;
+  background: rgba(0, 0, 0, 0.1); }
+
+/*# sourceMappingURL=frame2.css.map */

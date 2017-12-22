@@ -1,0 +1,46 @@
+<!--
+  Generated template for the PicturePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-buttons start>
+      <button ion-button icon-only menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+
+    </ion-buttons>
+    <ion-item style="margin-left: 16em ; background-color: #222222; color: white ;margin-top: 1em "no-lines>
+    <ion-icon name="logo-facebook" ></ion-icon>
+    <ion-icon name="logo-whatsapp" ></ion-icon>
+    <ion-icon name="logo-instagram"></ion-icon>
+    </ion-item>
+
+    <ion-title>Collage Maker</ion-title>
+
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content class="c1">
+
+  <ion-card class="main" style=" background: rgba(0,0,0,0.4);height: 46em;">
+    <!--<ion-scroll>-->
+  <h2 style="color: white">Design your moments</h2>
+  <ion-slides slidesPerView="2"  pager autoplay >
+      <ion-slide *ngFor="let pic of images">
+        <img src="../www/assets/imgs/{{pic}}?500x500" imageViewer>
+      </ion-slide></ion-slides>
+
+  <ion-card class="bg">
+
+    </ion-card>
+  <button class="b1" full ion-button round color="light" (click)="onclick()" >Download</button>
+    <!--</ion-scroll>-->
+  </ion-card>
+</ion-content>
+

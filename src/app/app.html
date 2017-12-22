@@ -1,0 +1,40 @@
+
+<ion-menu side="left" [content]="content">
+<ion-header>
+  <ion-toolbar>
+   `
+    <ion-title>
+      List
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content padding>
+
+  <ion-list >
+    <ion-item (click)="gotohome()" no-lines>
+      <ion-icon ios="ios-home" md="md-home"></ion-icon> Home
+    </ion-item>
+  </ion-list>
+  <ion-list>
+    <ion-item (click)="signup()" no-lines>
+      <ion-icon ios="ios-create" md="md-create"></ion-icon>Sign up
+    </ion-item>
+  </ion-list>
+  <ion-list>
+    <ion-item (click)="Canvas()" no-lines>
+      <ion-icon ios="ios-images" md="md-images"></ion-icon>Create Canvas
+    </ion-item>
+  </ion-list>
+  <ion-list>
+    <ion-item (click)="Collage()" no-lines>
+     <ion-icon ios="ios-photos" md="md-photos"></ion-icon>
+
+      Collage Page
+    </ion-item>
+  </ion-list>
+
+
+</ion-content>
+
+</ion-menu>
+<ion-nav [root]="rootPage" #content></ion-nav>

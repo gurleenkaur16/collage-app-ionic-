@@ -1,0 +1,115 @@
+page-canvas {
+
+  .bg {
+  //  //background: linear-gradient(to bottom , pink,#000000);
+  //  //background: linear-gradient(cornflowerblue, snow);
+  background: url("../assets/imgs/wood.jpg");
+   //background:linear-gradient(rgba(255,192,203, 1), rgba(0,0,0,0)), url(../assets/imgs/pic8.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+  }
+  h1{
+    text-align: center;
+    color: white;
+
+
+  }
+  .b1{
+    width:100px;
+    margin-left: 120px;
+    background-color: white;
+    color:#222222;
+
+  }
+  .scroll-content{
+    justify-content: center;
+    display: flex;
+  }
+  //ion-card-header.card-header{
+  //  color: white;
+  //}
+  ion-card.card{
+  //  display: flex;
+  //  flex-direction: column;
+  ////  margin-top: 6em;
+    width: 30em;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    padding-top: 3em;
+   // height:30em;
+    h1{
+      color: #ffffff;
+    }
+  }
+  .row1{
+    display: flex;
+    margin-top: 4em;
+  }
+  .row2{
+    display: flex;
+    margin-top: 2em;
+  }
+  .img1{
+    height: 150px;
+    width: 150px;
+  }
+  .img2{
+    height: 150px;
+    width: 150px;
+    margin-left: 2em;
+  }
+  .img3{
+    height: 150px;
+    width: 150px;
+  }
+
+  .img4{
+    height: 150px;
+    width: 150px;
+    margin-left: 2em;
+  }
+
+
+ion-label{
+    color: white;
+  }
+
+  .item{
+    background: transparent;
+    .select{
+      color: white;
+    }
+
+  }
+  .buttons {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    .input-label {
+      color: white;
+    }
+  }
+  @media all and (min-width: 600px) {
+    ion-card.card {
+      margin-top: 6em;
+      background: rgba(0, 0, 0, 0.5);
+      color: white;
+      padding-top: 3em;
+      height: 30em;
+      width:500px;
+
+    }
+
+    .b1{
+      width:100px;
+      margin-left: 190px;
+      background-color: white;
+      color:#222222;
+
+    }
+
+  }
+
+}

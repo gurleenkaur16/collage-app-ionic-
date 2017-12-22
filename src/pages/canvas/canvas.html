@@ -1,0 +1,89 @@
+<!--
+  Generated template for the CanvasPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+
+    <ion-buttons start>
+      <button ion-button icon-only menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+    </ion-buttons>
+
+    <ion-title> Canvas</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content padding class="bg">
+<ion-card>
+      <!--<h1>Create Canvas</h1>-->
+
+      <!--<ion-item>-->
+        <!--<ion-label>-->
+            <!--Size of Canvas-->
+        <!--</ion-label>-->
+            <!--<ion-select>-->
+              <!--<ion-option>5*7</ion-option>-->
+              <!--<ion-option selected>8*6</ion-option>-->
+              <!--<ion-option>8*10</ion-option>-->
+              <!--<ion-option>10*10</ion-option>-->
+              <!--<ion-option>13*19</ion-option>-->
+            <!--</ion-select>-->
+      <!--</ion-item>-->
+
+      <!--<ion-item>-->
+
+          <!--<ion-label>No. of photos</ion-label>-->
+            <!--<ion-select>-->
+              <!--<ion-option>2</ion-option>-->
+              <!--<ion-option selected>4</ion-option>-->
+              <!--<ion-option>6</ion-option>-->
+              <!--<ion-option>8</ion-option>-->
+              <!--<ion-option>10</ion-option>-->
+            <!--</ion-select>-->
+
+      <!--</ion-item>-->
+
+      <!--<ion-item>-->
+        <!--<div class="input-label">-->
+          <!--Upload Images-->
+        <!--</div>-->
+      <!--</ion-item>-->
+
+      <!--<ion-item>-->
+
+        <!--<div *ngIf="!isIOS">-->
+          <!--<ion-row class="buttons-row">-->
+            <!--<ion-col class="buttons-col">-->
+              <!--<button ion-button full small icon-left class="top-button" (click)="fileInput.click()" color="light">-->
+                <!--<ion-icon name="folder"></ion-icon>-->
+                <!--Upload Image-->
+              <!--</button>-->
+              <!--<p>OR</p>-->
+              <!--<button ion-button full small icon-left color="light" (click)="takePhoto()" full padding="">Photo</button>-->
+            <!--</ion-col>-->
+          <!--</ion-row>-->
+          <!--<div hidden>-->
+            <!--<input type="file" id="fileUpload1" #fileInput (change)="onFileFromStorageChosen($event)" />-->
+          <!--</div>-->
+        <!--</div>-->
+      <!--</ion-item>-->
+
+
+  <h1>Select a Frame</h1>
+  <div class="row1">
+    <img src="../www/assets/imgs/1.jpeg" class="img1" (click)="framePage1()">
+    <img src="../www/assets/imgs/2.jpeg" class="img2" (click)="framePage2()">
+  </div>
+  <div class="row2">
+    <img src="../www/assets/imgs/3.jpeg" class="img3" (click)="framePage3()">
+    <img src="../www/assets/imgs/capture.png" class="img4" (click)="framePage4()">
+  </div>
+</ion-card>
+
+  </ion-content>

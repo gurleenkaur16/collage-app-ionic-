@@ -1,0 +1,26 @@
+page-about {
+  .bg{
+    //background: linear-gradient(to bottom , pink,#000000);
+    //background-size: 1424px 752px;
+    color: white;
+    //display: flex;
+    //flex-direction: row;row
+    background: url("../assets/imgs/wood.jpg");
+    //background:linear-gradient(rgba(255,192,203, 1), rgba(0,0,0,0)), url(../assets/imgs/pic8.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .scroll-content{
+    justify-content: center;
+    display: flex;
+  }
+  p{
+    font-family: "Arial Rounded MT Bold";
+  }
+  ion-card.card{
+    height:42em;
+    width:20em;
+    background: rgba(0,0,0,0.2);
+  }
+
+}

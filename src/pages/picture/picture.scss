@@ -1,0 +1,78 @@
+page-picture {
+  .scroll-content {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+  ion-slide.swiper-slide {
+    left: 25%;
+  }
+  .slide-zoom {
+    background: #e6e6e6;
+  }
+  ion-card.bg {
+
+    height:280px;
+    width:380px;
+    background-image: url("../assets/imgs/pic27.jpg");
+  }
+  h2 {
+    text-align: center;
+    font-family: "Segoe UI", "Noto Sans", sans-serif;
+  }
+  ion-slides {
+    width: 400px;
+    height: 250px;
+    margin-top: -3em;
+  }
+  .c1{
+    background: url("../assets/imgs/wood.jpg");
+  }
+  .b1{
+   // margin-left: 150px;
+  }
+  .container{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  @media all and (min-width: 600px) {
+   ion-slides{
+
+     width: 400px;
+     height: 250px;
+     margin-top: -3em;
+     margin-left: 45em;
+   }
+    ion-card.card{
+      .scroll-content {
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+      }
+      //margin-left: 45em;
+      //width:740px
+    }
+    .b1{
+      margin-left: 42em;
+      width: 380px;
+    }
+    ionic-card.main{
+      width: 30em;
+      height: 40em;
+    }
+    ion-card.bg {
+      margin-left: 48em;
+      height:280px;
+      width:380px;
+      background-image: url("../assets/imgs/pic27.jpg");
+    }
+
+  }
+}
+

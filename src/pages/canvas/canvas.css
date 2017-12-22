@@ -1,0 +1,69 @@
+page-canvas .bg {
+  background: url("../assets/imgs/wood.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+page-canvas h1 {
+  text-align: center;
+  color: white; }
+page-canvas .b1 {
+  width: 100px;
+  margin-left: 120px;
+  background-color: white;
+  color: #222222; }
+page-canvas .scroll-content {
+  justify-content: center;
+  display: flex; }
+page-canvas ion-card.card {
+  width: 30em;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding-top: 3em; }
+  page-canvas ion-card.card h1 {
+    color: #ffffff; }
+page-canvas .row1 {
+  display: flex;
+  margin-top: 4em; }
+page-canvas .row2 {
+  display: flex;
+  margin-top: 2em; }
+page-canvas .img1 {
+  height: 150px;
+  width: 150px; }
+page-canvas .img2 {
+  height: 150px;
+  width: 150px;
+  margin-left: 2em; }
+page-canvas .img3 {
+  height: 150px;
+  width: 150px; }
+page-canvas .img4 {
+  height: 150px;
+  width: 150px;
+  margin-left: 2em; }
+page-canvas ion-label {
+  color: white; }
+page-canvas .item {
+  background: transparent; }
+  page-canvas .item .select {
+    color: white; }
+page-canvas .buttons {
+  color: white;
+  display: flex;
+  flex-direction: column; }
+  page-canvas .buttons .input-label {
+    color: white; }
+@media all and (min-width: 600px) {
+  page-canvas ion-card.card {
+    margin-top: 6em;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding-top: 3em;
+    height: 30em;
+    width: 500px; }
+  page-canvas .b1 {
+    width: 100px;
+    margin-left: 190px;
+    background-color: white;
+    color: #222222; } }
+
+/*# sourceMappingURL=canvas.css.map */

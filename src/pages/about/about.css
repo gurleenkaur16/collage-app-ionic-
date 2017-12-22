@@ -1,0 +1,16 @@
+page-about .bg {
+  color: white;
+  background: url("../assets/imgs/wood.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+page-about .scroll-content {
+  justify-content: center;
+  display: flex; }
+page-about p {
+  font-family: "Arial Rounded MT Bold"; }
+page-about ion-card.card {
+  height: 42em;
+  width: 20em;
+  background: rgba(0, 0, 0, 0.2); }
+
+/*# sourceMappingURL=about.css.map */

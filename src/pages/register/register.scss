@@ -1,0 +1,54 @@
+page-register {
+    .heading{
+      color: white;
+    }
+    ion-content{
+      text-align: center;
+      background-image: url("../assets/imgs/wood.jpg");
+
+    }
+    .scroll-content{
+      justify-content: center;
+      display: flex;
+    }
+    ion-card.card{
+      background: rgba(0,0,0,0.6);
+      width:30em;
+      height: 42em;
+    }
+    ion-card-header.card-header{
+      color: white;
+      font-size: 24px;
+    }
+    .btn-signup{
+      width: 200px;
+    }
+    .btn-signIn{
+      background: rgba(0,0,0,0.9);
+      color: white;
+      border: solid white;
+    }
+    .btn-signIn:hover{
+      color: black;
+    }
+    .footer{
+      text-align: center;
+      color: white;
+    }
+    .item {
+      background: transparent;
+      border: white;
+      .text-input{
+        color: white;
+      }
+      input-label
+      {
+        color: white;
+      }
+      ion-label{
+        color: white;
+      }
+    }
+  }
+
+

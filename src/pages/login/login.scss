@@ -1,0 +1,50 @@
+page-login {
+
+
+  .bg {
+    //background: linear-gradient(to bottom , pink,#000000);
+    //background: linear-gradient(cornflowerblue, snow);
+    //background: url("../assets/imgs/pic7.jpg");
+    //background-repeat: no-repeat;
+    //background:linear-gradient(rgba(255,192,203, 1), rgba(0,0,0,0)), url(../assets/imgs/pic8.jpg) ;
+    background-size: cover;
+    background-size: 1424px 752px;
+    background: url("../assets/imgs/wood.jpg");
+
+  }
+  .scroll-content {
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+  }
+  ion-card.card {
+    box-shadow: none;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    align-content: center;
+    width: 20em;
+    height: 24em;
+    margin-top: 7em;
+  }
+  ion-card-header.card-header{
+    color:#fff;
+
+  }
+  .item{
+    background: transparent;
+    border:1px solid white;
+    margin-top:1em ;
+    input-label{
+      color:white;
+    }
+    ion-input{
+      color: white;
+    }
+  }
+  .signin{
+    margin-top:1em ;
+  }
+}
+

@@ -1,0 +1,31 @@
+page-login .bg {
+  background-size: cover;
+  background-size: 1424px 752px;
+  background: url("../assets/imgs/wood.jpg"); }
+page-login .scroll-content {
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  text-align: center; }
+page-login ion-card.card {
+  box-shadow: none;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  align-content: center;
+  width: 20em;
+  height: 24em;
+  margin-top: 7em; }
+page-login ion-card-header.card-header {
+  color: #fff; }
+page-login .item {
+  background: transparent;
+  border: 1px solid white;
+  margin-top: 1em; }
+  page-login .item input-label {
+    color: white; }
+  page-login .item ion-input {
+    color: white; }
+page-login .signin {
+  margin-top: 1em; }
+
+/*# sourceMappingURL=login.css.map */

@@ -1,0 +1,65 @@
+page-frame1 {
+  .scroll-content{
+    display: flex;
+    justify-content: center
+  }
+  $canvas_width :26.5em;
+  $icon_font:40px;
+  ion-card.i1{
+    background-color: dimgray;
+    height: 10em;
+    width: $canvas_width;
+    display: flex;
+    justify-content: center;
+    ion-icon{
+      margin-top: 1.3em;
+      font-size: $icon_font;
+    }
+  }
+  ion-card.i2{
+    background-color: dimgray;
+    height: 10em;
+    width: $canvas_width;
+    display: flex;
+    justify-content: center;
+    ion-icon{
+      margin-top: 1.3em;
+      font-size: $icon_font;
+    }
+  }
+  ion-card.i3{
+    background-color: dimgray;
+    height: 10em;
+    width: $canvas_width;
+    display: flex;
+    justify-content: center;
+    ion-icon{
+      margin-top: 1.3em;
+      font-size: $icon_font;
+    }
+  }
+  ion-card.i4{
+    background-color: dimgray;
+    height: 10em;
+    width: $canvas_width;
+    display: flex;
+    justify-content: center;
+    ion-icon{
+      margin-top: 1.3em;
+      font-size: $icon_font;
+    }
+  }
+  ion-card.main{
+    height: 44em;
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction:column;
+  }
+  ion-card.main{
+    height: 40em;
+    background: rgba(0,0,0,0.1);
+    //display: flex;
+
+  }
+}
